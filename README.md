@@ -5,17 +5,18 @@ This project is a Sales Performance and KPI Dashboard built using Power BI to tr
 🚀 Objective
 To create a centralized and dynamic dashboard for:
 
-Monitoring total and YTD sales vs targets
+1. Monitoring total and YTD sales vs targets
 
-Measuring variance and variance percentage
+2. Measuring variance and variance percentage
 
-Evaluating sales performance by individual salesperson and team
+3. Evaluating sales performance by individual salesperson and team
 
-Identifying monthly target achievement patterns
+4. Identifying monthly target achievement patterns
 
-Visualizing trends and performance dips/spikes over time
+5. Visualizing trends and performance dips/spikes over time
 
 🧠 Key Features
+
 📌 Variance KPI Cards (Actual vs Target in $ and %)
 
 📈 Monthly Trend Chart (Actual vs Target with delta %)
@@ -35,36 +36,31 @@ Target status by month
 🔀 Team slicers for segmentation
 
 Data Model
+
 4-table star schema:
 
-dimPeople (Salesperson dimension with team & picture)
+1. dimPeople (Salesperson dimension with team & picture)
 
-Calendar (Date, Month, Year)
+2. Calendar (Date, Month, Year)
 
-Actual (Monthly actual sales)
+3. Actual (Monthly actual sales)
 
-Targets (Monthly target sales)
+4. Targets (Monthly target sales)
 
 All relationships are 1:* with Calendar and dimPeople as dimension tables.
 
 🛠 Tools & Technologies
 
-Power BI Desktop
-
-DAX for calculated measures
-
-Interactive visuals: bar charts, cards, matrix, sparklines
-
-Bookmarks and slicers for UX
+Power BI Desktop, DAX for calculated measures, Interactive visuals: bar charts, cards, matrix, sparklines, Bookmarks and slicers for UX
 
 📌 Insights Delivered
 
-Target met in only 2 out of 14 months
+1. Target met in only 2 out of 14 months
 
-Latest YTD variance: −4.41%
+2. Latest YTD variance: −4.41%
 
-Salesperson performance variance from −6.7% to +3.0%
+3. Salesperson performance variance from −6.7% to +3.0%
 
-Clear patterns in monthly underperformance trends
+4. Clear patterns in monthly underperformance trends
 
-Dynamic narrative text that explains peak or drop periods
+5. Dynamic narrative text that explains peak or drop periods
